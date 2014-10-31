@@ -1,0 +1,9 @@
+<toolSet name="External Tools">
+  <tool name="TestRunner" description="Test runner ... hopefully" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="false">
+    <exec>
+      <option name="COMMAND" value="/Users/patkoscsaba/Work/UnistoreTestRunner/unistoreTestRunner.php" />
+      <option name="PARAMETERS" value="$FilePath$" />
+      <option name="WORKING_DIRECTORY" value="/Users/patkoscsaba/Work/UnistoreTestRunner/" />
+    </exec>
+  </tool>
+</toolSet>

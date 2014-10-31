@@ -1,0 +1,151 @@
+<keymap version="1" name="Mac OS X 10.5+ copy" parent="Mac OS X 10.5+">
+  <action id="$Copy">
+    <keyboard-shortcut first-keystroke="meta C" />
+    <keyboard-shortcut first-keystroke="control C" />
+  </action>
+  <action id="ActivateAtlassianToolWindow">
+    <keyboard-shortcut first-keystroke="alt A" />
+  </action>
+  <action id="AddToFavoritesPopup" />
+  <action id="Back">
+    <keyboard-shortcut first-keystroke="meta OPEN_BRACKET" />
+    <keyboard-shortcut first-keystroke="meta alt LEFT" />
+    <mouse-shortcut keystroke="button4" />
+    <keyboard-shortcut first-keystroke="control BACK_SPACE" />
+  </action>
+  <action id="CloseActiveTab">
+    <keyboard-shortcut first-keystroke="shift control F4" />
+    <keyboard-shortcut first-keystroke="F2" />
+  </action>
+  <action id="CodeCompletion">
+    <keyboard-shortcut first-keystroke="control SPACE" />
+    <keyboard-shortcut first-keystroke="control N" />
+  </action>
+  <action id="CommentByLineComment">
+    <keyboard-shortcut first-keystroke="meta SLASH" />
+    <keyboard-shortcut first-keystroke="meta DIVIDE" />
+    <keyboard-shortcut first-keystroke="control SLASH" />
+  </action>
+  <action id="CompareDirs" />
+  <action id="CompareJars" />
+  <action id="CompareTwoFiles" />
+  <action id="Console.TableResult.EditValue">
+    <keyboard-shortcut first-keystroke="alt ENTER" />
+  </action>
+  <action id="DatabaseView.CopyAction">
+    <keyboard-shortcut first-keystroke="shift control DOWN" />
+  </action>
+  <action id="DatabaseView.ShowDiff" />
+  <action id="Debug" />
+  <action id="Diff.UpdatedFiles" />
+  <action id="Editor Copy">
+    <keyboard-shortcut first-keystroke="control C" />
+  </action>
+  <action id="EditorChooseLookupItemDot" />
+  <action id="EditorDeleteLine">
+    <keyboard-shortcut first-keystroke="control D" />
+    <keyboard-shortcut first-keystroke="meta D" />
+  </action>
+  <action id="EditorDown">
+    <keyboard-shortcut first-keystroke="DOWN" />
+  </action>
+  <action id="EditorDuplicate">
+    <keyboard-shortcut first-keystroke="shift control DOWN" />
+  </action>
+  <action id="EditorLeft">
+    <keyboard-shortcut first-keystroke="LEFT" />
+    <keyboard-shortcut first-keystroke="control B" />
+    <keyboard-shortcut first-keystroke="control H" />
+  </action>
+  <action id="EditorLineEndWithSelection">
+    <keyboard-shortcut first-keystroke="shift END" />
+    <keyboard-shortcut first-keystroke="shift meta RIGHT" />
+    <keyboard-shortcut first-keystroke="shift control E" />
+  </action>
+  <action id="EditorLineStartWithSelection">
+    <keyboard-shortcut first-keystroke="shift HOME" />
+    <keyboard-shortcut first-keystroke="shift meta LEFT" />
+    <keyboard-shortcut first-keystroke="shift control A" />
+  </action>
+  <action id="EditorPreviousWordWithSelection" />
+  <action id="EditorSelectWord">
+    <keyboard-shortcut first-keystroke="alt UP" />
+    <keyboard-shortcut first-keystroke="shift control PERIOD" />
+  </action>
+  <action id="EditorUnindentSelection">
+    <keyboard-shortcut first-keystroke="shift TAB" />
+    <keyboard-shortcut first-keystroke="shift alt LEFT" />
+  </action>
+  <action id="FileChooser.TogglePathShowing" />
+  <action id="FindUsages">
+    <keyboard-shortcut first-keystroke="alt F7" />
+    <keyboard-shortcut first-keystroke="meta U" />
+  </action>
+  <action id="GotoFile">
+    <keyboard-shortcut first-keystroke="shift meta O" />
+    <keyboard-shortcut first-keystroke="shift control O" />
+  </action>
+  <action id="GotoNextError" />
+  <action id="GotoSuperMethod" />
+  <action id="GotoSymbol">
+    <keyboard-shortcut first-keystroke="meta alt O" />
+    <keyboard-shortcut first-keystroke="shift alt O" />
+  </action>
+  <action id="Macro.Put -&gt; at end-of-line">
+    <keyboard-shortcut first-keystroke="control PERIOD" />
+  </action>
+  <action id="Macro.Put ; at end-of-line">
+    <keyboard-shortcut first-keystroke="control SEMICOLON" />
+  </action>
+  <action id="Macro.Put = at end-of-line">
+    <keyboard-shortcut first-keystroke="control EQUALS" />
+  </action>
+  <action id="ParameterInfo" />
+  <action id="PasteMultiple">
+    <keyboard-shortcut first-keystroke="shift meta V" />
+    <keyboard-shortcut first-keystroke="control V" />
+  </action>
+  <action id="QuickJavaDoc">
+    <keyboard-shortcut first-keystroke="control J" />
+    <mouse-shortcut keystroke="control button2" />
+  </action>
+  <action id="ReformatCode">
+    <keyboard-shortcut first-keystroke="meta alt L" />
+    <keyboard-shortcut first-keystroke="shift alt F" />
+  </action>
+  <action id="RenameElement">
+    <keyboard-shortcut first-keystroke="shift F6" />
+    <keyboard-shortcut first-keystroke="control R" />
+  </action>
+  <action id="Run" />
+  <action id="RunClass">
+    <keyboard-shortcut first-keystroke="shift control R" />
+    <keyboard-shortcut first-keystroke="F1" />
+  </action>
+  <action id="StartStopMacroRecording">
+    <keyboard-shortcut first-keystroke="alt M" />
+  </action>
+  <action id="SwitchApply">
+    <keyboard-shortcut first-keystroke="control alt ENTER" />
+  </action>
+  <action id="SwitchDown">
+    <keyboard-shortcut first-keystroke="control alt DOWN" />
+  </action>
+  <action id="SwitchLeft">
+    <keyboard-shortcut first-keystroke="control alt LEFT" />
+  </action>
+  <action id="SwitchRight">
+    <keyboard-shortcut first-keystroke="control alt RIGHT" />
+  </action>
+  <action id="SwitchUp">
+    <keyboard-shortcut first-keystroke="control alt UP" />
+  </action>
+  <action id="TypeHierarchy" />
+  <action id="Vcs.QuickListPopupAction" />
+  <action id="Vcs.ShowTabbedFileHistory">
+    <keyboard-shortcut first-keystroke="shift control H" />
+  </action>
+  <action id="hg4idea.push">
+    <keyboard-shortcut first-keystroke="meta P" />
+  </action>
+</keymap>

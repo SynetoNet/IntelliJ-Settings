@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application>
+  <component name="AbbreviationManager">
+    <abbreviations>
+      <action id="MemberPushDown">
+        <abbreviation name="pd" />
+      </action>
+      <action id="MembersPullUp">
+        <abbreviation name="pu" />
+      </action>
+    </abbreviations>
+  </component>
+</application>
+

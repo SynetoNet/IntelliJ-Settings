@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application>
+  <component name="ActionMacroManager">
+    <macro name="; at end-of-line">
+      <action id="EditorLineEnd" />
+      <typing text-keycode="59:0">;</typing>
+    </macro>
+    <macro name="= at end-of-line">
+      <action id="EditorLineEnd" />
+      <typing text-keycode="32:0;61:0;32:0">&amp;#x20;=&amp;#x20;</typing>
+    </macro>
+    <macro name="-&gt; at end-of-line">
+      <action id="EditorLineEnd" />
+      <typing text-keycode="45:0;46:1">-&gt;</typing>
+    </macro>
+    <macro name="Remove first word">
+      <action id="EditorLineStart" />
+      <action id="EditorNextWordWithSelection" />
+      <action id="EditorBackSpace" />
+      <action id="EditorLineEnd" />
+    </macro>
+  </component>
+</application>
+
